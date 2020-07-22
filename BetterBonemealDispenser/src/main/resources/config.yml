@@ -1,0 +1,10 @@
+###########################
+# BetterBonemealDispenser #
+###########################
+
+allowed-plants-grow:
+    sugarcane:
+        enabled: true
+        # chance to proc 2 grow steps instead of 1
+        # 1 = 100% , 0.5 = 50% , 0 = 0%
+        proc-chance: 0.5

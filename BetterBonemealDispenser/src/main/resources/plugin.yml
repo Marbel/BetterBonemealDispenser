@@ -1,0 +1,16 @@
+name: ${project.name}
+main: de.j_moebis.BetterBonemealDispenser
+author: Marbel
+version: ${project.version}
+api-version: 1.13
+commands:
+    betterbonemealdispenser:
+        description: BetterBonemealDispenser
+        aliases: bbd
+        permission: betterbonemealdispenser
+        permission-message: You do not have permission!
+        usage: /<command> [reload]
+permissions:
+    betterbonemealdispenser:
+        description: Allows to reload the config of the BetterBonemealDispenser plugin
+        default: op
